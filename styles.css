@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #4d5645;
+}
+
+nav {
+  position: fixed;
+  margin: 0px 10px 10px 0px;
+  padding: 130px 30px 200px 0px;
+  background-color: black;
+}
+
+li {
+  list-style-type: none;
+  line-height: 2;
+  font-family: "Franklin Gothic", sans-serif;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #4d5645;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding: 40px;
+  margin: 0px;
+  position: relative;
+  font-family: "Franklin Gothic", sans-serif;
+}
+.section1 {
+  padding-left: 190px;
+  padding-top: 20px;
+  line-height: 1.5;
+  font-family: "Franklin Gothic", sans-serif;
+}
+#bee {
+  margin-left: 160px;
+}
