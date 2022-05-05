@@ -46,3 +46,14 @@ h1 {
 #bee {
   margin-left: 160px;
 }
+#flexbox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: black;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-basis: auto;
+  margin-left: -10px;
+}
