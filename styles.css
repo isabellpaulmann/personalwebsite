@@ -46,7 +46,7 @@ h1 {
 #bee {
   margin-left: 160px;
 }
-#flexbox {
+.flexbox {
   display: flex;
   flex-direction: row;
   gap: 10px;
