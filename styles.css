@@ -2,58 +2,96 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   color: white;
-  background-color: #4d5645;
-}
+  background-color: #d47479;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: helvetica, sans-serif;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
 
-nav {
-  position: fixed;
-  margin: 0px 10px 10px 0px;
-  padding: 130px 30px 200px 0px;
-  background-color: black;
-}
-
-li {
-  list-style-type: none;
-  line-height: 2;
-  font-family: "Franklin Gothic", sans-serif;
+  border-bottom: 10px solid black;
+  overflow: auto;
+  min-height: 100%;
 }
 
 a,
 a:visited {
   text-decoration: none;
   color: white;
+  font-family: helvetica, sans-serif;
+  padding: 5px;
 }
 a:hover {
-  color: #4d5645;
+  background-color: white;
+  color: black;
 }
 
 h1 {
   color: white;
   background-color: black;
-  padding: 40px;
+  padding: 15px;
   margin: 0px;
-  position: relative;
-  font-family: "Franklin Gothic", sans-serif;
+  font-size: 250%;
 }
-.section1 {
-  padding-left: 190px;
-  padding-top: 20px;
-  line-height: 1.5;
-  font-family: "Franklin Gothic", sans-serif;
-}
-#bee {
-  margin-left: 160px;
-}
-.flexbox {
+
+nav {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  background-color: black;
   flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-around;
-  flex-basis: auto;
-  margin-left: -10px;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 10px 10px 15px;
+  margin: -5px;
+  font-size: 120%;
+}
+
+#me {
+  margin: 10px;
+  float: left;
+}
+.section1 {
+  margin: 10px;
+  font-size: 120%;
+
+  line-height: 1.5;
+}
+.section2 {
+  margin: 10px;
+  font-size: 150%;
+  border-top: 2px solid white;
+
+  clear: left;
+}
+
+.section3 {
+  display: flex;
+  font-size: 150%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social {
+  background-color: black;
+  padding: 10px 40px;
+  width: 150px;
+  text-align: center;
+}
+
+.social:hover {
+}
+img {
+  border: 6px solid white;
+}
+
+footer {
+  margin: 10px;
 }
