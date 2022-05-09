@@ -52,7 +52,7 @@ nav {
   padding: 10px 10px 10px 15px;
   margin: -5px;
   margin-bottom: 20px;
-  font-size: 130%;
+  font-size: 150%;
 }
 
 #me {
@@ -62,14 +62,14 @@ nav {
 }
 .section1 {
   margin: 15px;
-  font-size: 130%;
+  font-size: 150%;
   padding: 0px 15px;
   margin-bottom: 30px;
 }
 .section2 {
   padding: 15px;
   margin: 15px;
-  font-size: 130%;
+  font-size: 150%;
   border-top: 2px solid white;
   clear: left;
 }
@@ -94,7 +94,7 @@ footer {
 }
 
 .section4 {
-  font-size: 130%;
+  font-size: 150%;
   padding: 15px;
   border-top: 2px solid white;
   margin: 30px 15px;
@@ -117,6 +117,6 @@ footer {
   text-align: center;
   margin: auto;
   flex-direction: column;
-  font-size: 130%;
+  font-size: 150%;
   margin-bottom: 15px;
 }
