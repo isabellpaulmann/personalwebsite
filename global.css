@@ -1,0 +1,24 @@
+@import "styles.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: white;
+  background-color: #922b3e;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: helvetica, sans-serif;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  overflow: auto;
+  min-height: 100%;
+  line-height: 1.5;
+}
